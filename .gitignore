@@ -1,0 +1,236 @@
+# ====================================
+# Firefighter Monitoring System
+# Full Stack Project .gitignore
+# ====================================
+
+# ====================================
+# Node.js / Backend Dependencies
+# ====================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# ====================================
+# Python Dependencies & Virtual Environments
+# ====================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# ====================================
+# Database Files
+# ====================================
+*.db
+*.sqlite
+*.sqlite3
+firefighter_monitoring.db
+firefighter_system.db
+
+# MongoDB data
+data/
+mongo-data/
+
+# ====================================
+# Environment Variables & Configuration
+# ====================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.example
+config.json
+secrets.json
+
+# ====================================
+# Logs
+# ====================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# ====================================
+# Runtime & Temporary Files
+# ====================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.tmp
+*.temp
+.tmp/
+temp/
+
+# ====================================
+# IDE & Editor Files
+# ====================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.sublime-workspace
+.sublime-project
+
+# ====================================
+# React / Frontend Build Files
+# ====================================
+build/
+dist/
+.next/
+out/
+.nuxt/
+
+# Static files
+public/uploads/
+public/assets/generated/
+
+# ====================================
+# Testing & Coverage
+# ====================================
+coverage/
+.nyc_output/
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+.jest/
+test-results/
+*.cover
+.hypothesis/
+
+# ====================================
+# Documentation Generated Files
+# ====================================
+docs/_build/
+site/
+
+# ====================================
+# OS Generated Files
+# ====================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ====================================
+# Security & Sensitive Data
+# ====================================
+*.pem
+*.key
+*.crt
+*.p12
+auth.json
+credentials.json
+service-account.json
+firebase-adminsdk*.json
+
+# ====================================
+# Backup & Archive Files
+# ====================================
+*.bak
+*.backup
+*.old
+*.orig
+backup/
+backups/
+*.zip
+*.tar.gz
+*.rar
+
+# ====================================
+# Project Specific Files
+# ====================================
+# Simulation data exports
+exports/
+simulation-data/
+sensor-exports/
+
+# Generated reports
+reports/
+analytics/
+
+# Uploaded files
+uploads/
+user-uploads/
+
+# Cache directories
+.cache/
+.parcel-cache/
+
+# ====================================
+# Deployment & CI/CD
+# ====================================
+.serverless/
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+.vagrant/
+docker-compose.override.yml
